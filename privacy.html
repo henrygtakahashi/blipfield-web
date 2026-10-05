@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Blipfield Privacy Policy</title>
+  <meta name="description" content="Privacy policy for Blipfield: Bluetooth Hunt. Passive Bluetooth scanning; nothing leaves your phone.">
+  <link rel="icon" href="icon.png">
+  <style>
+    :root {
+      --bg: #121418;
+      --surface: #1a1d21;
+      --border: #2c3036;
+      --text: #d5d8dd;
+      --text-2: #abb0b7;
+      --text-3: #878d95;
+      --signal: #ffb224;
+    }
+    @media (prefers-color-scheme: light) {
+      :root {
+        --bg: #fbfaf7;
+        --surface: #ffffff;
+        --border: #e4e1da;
+        --text: #1d1b17;
+        --text-2: #4a463e;
+        --text-3: #6b665c;
+        --signal: #8a5a00;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    }
+    main { max-width: 680px; margin: 0 auto; padding: 48px 16px 64px; }
+    header { display: flex; align-items: center; gap: 14px; margin-bottom: 8px; }
+    header img { width: 48px; height: 48px; border-radius: 12px; }
+    h1 { font-size: 28px; line-height: 1.2; margin: 0; }
+    .meta { color: var(--text-3); font-size: 14px; margin: 0 0 32px; }
+    .summary {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-left: 3px solid var(--signal);
+      border-radius: 10px;
+      padding: 16px 18px;
+      margin-bottom: 32px;
+    }
+    .summary p { margin: 0; }
+    h2 { font-size: 19px; margin: 36px 0 8px; }
+    p, li { color: var(--text-2); }
+    ul { padding-left: 22px; }
+    li { margin: 4px 0; }
+    strong { color: var(--text); }
+    code { font: 14px ui-monospace, Menlo, monospace; color: var(--text); }
+    a { color: var(--signal); }
+    footer { margin-top: 48px; color: var(--text-3); font-size: 14px; }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <img src="icon.png" alt="">
+    <h1>Blipfield Privacy Policy</h1>
+  </header>
+  <p class="meta">Blipfield: Bluetooth Hunt · Effective 5 October 2026</p>
+
+  <div class="summary">
+    <p><strong>In short:</strong> Blipfield listens to Bluetooth signals that nearby devices broadcast. Everything it sees stays on your phone. It has no account, no ads and no analytics, and it sends no data to the developer or to anyone else.</p>
+  </div>
+
+  <h2>Who we are</h2>
+  <p>Blipfield is developed by Henry Takahashi, an independent developer. In this policy, “we” means the developer and “the app” means Blipfield for Android.</p>
+
+  <h2>What the app reads</h2>
+  <p>Many Bluetooth Low Energy devices, such as headphones, watches, trackers and TVs, constantly broadcast short public messages called advertisements. Blipfield receives these advertisements so it can list nearby devices and help you find one by its signal strength. From each advertisement it reads:</p>
+  <ul>
+    <li>the device’s Bluetooth address, which many devices change regularly for privacy;</li>
+    <li>the name the device broadcasts, if it sends one;</li>
+    <li>the manufacturer and service data in the advertisement;</li>
+    <li>the signal strength, as measured by your phone.</li>
+  </ul>
+  <p>Blipfield is <strong>passive only</strong>. It never connects to, pairs with or reads data from any device.</p>
+
+  <h2>What the app stores, on your phone only</h2>
+  <ul>
+    <li><strong>Devices in range</strong> are kept in memory only. A device disappears from the app about 10 seconds after it stops broadcasting, and the list is cleared when the app closes.</li>
+    <li><strong>Favourites</strong> you star: the device’s address, broadcast name, label, device type and the date you starred it.</li>
+    <li><strong>Distance calibrations</strong> you save: the device’s address, broadcast name and the signal strength you measured at 1 metre.</li>
+    <li><strong>Settings</strong>: your list sorting, filters and colour theme.</li>
+  </ul>
+  <p>This information is saved in the app’s private storage on your phone. It is never uploaded.</p>
+
+  <h2>What the app shares</h2>
+  <p><strong>Nothing.</strong> The app makes no network requests and sends no personal or device data over the internet. It contains no advertising, analytics or tracking code. We do not sell, rent or share any data, because we never receive any.</p>
+
+  <h2>Permissions</h2>
+  <ul>
+    <li><strong>Nearby devices</strong> (Android 12 and newer): to scan for Bluetooth advertisements. The app declares that it does not use scan results to work out your location. The “connect” part of this permission lets Android show device names; the app never connects to devices.</li>
+    <li><strong>Location</strong> (Android 11 and older only): Android requires it for any Bluetooth scan on these versions. The app never reads, stores or uses your location.</li>
+    <li><strong>Vibration</strong>: for haptic feedback, for example when you get closer to a device you are hunting.</li>
+  </ul>
+
+  <h2>Clipboard</h2>
+  <p>The app writes to your clipboard only when you tap a “Copy” button, for example to copy a device’s raw data or an error report. It never reads your clipboard.</p>
+
+  <h2>Errors and crashes</h2>
+  <p>If the app hits an error, it shows the error on screen. You can copy the details and send them to us yourself; nothing is sent automatically. If you have turned on usage and diagnostics sharing in your Android settings, Google may collect crash reports for the developer through Google Play. That collection is handled by Google under the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+
+  <h2>Other people’s devices</h2>
+  <p>The devices the app lists may belong to other people. The app shows only what those devices broadcast publicly to everyone nearby, and keeps it on your phone. Please use Blipfield to find your own things, and respect other people’s privacy.</p>
+
+  <h2>Deleting your data</h2>
+  <p>Remove a favourite or calibration in the app at any time. To delete everything, clear the app’s storage in Android Settings or uninstall the app. We hold no copy, so there is nothing to request from us.</p>
+
+  <h2>Children</h2>
+  <p>Blipfield is not directed at children under 13, and it does not collect personal information from anyone.</p>
+
+  <h2>Changes to this policy</h2>
+  <p>If this policy changes, we will update this page and its effective date. If the app ever starts sending data off your phone, we will say so here and in the app before it happens.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy: <a href="mailto:henryrezende.dev@gmail.com">henryrezende.dev@gmail.com</a></p>
+
+  <footer>© 2026 Henry Takahashi</footer>
+</main>
+</body>
+</html>
